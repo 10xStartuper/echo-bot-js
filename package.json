@@ -1,0 +1,11 @@
+{
+  "name": "echo-bot",
+  "version": "1.0.0",
+  "description": "Echo bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mukhammadyusuf Abdurakhimov",
+  "license": "MIT"
+}
