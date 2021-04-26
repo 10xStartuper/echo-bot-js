@@ -1,4 +1,4 @@
-const { config, Telegraf, bot, logMessage } = require("./index");
+const { bot, logMessage } = require("./index");
 
 bot.use((ctx, next) => {
   logMessage(ctx);
