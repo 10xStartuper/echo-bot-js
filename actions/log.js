@@ -1,5 +1,5 @@
 const { config } = require("../config");
-function logMessage(ctx) {
+function logMessageToGroup(ctx) {
   ctx.telegram.forwardMessage(
     config.group_id,
     ctx.message.chat.id,
@@ -7,5 +7,5 @@ function logMessage(ctx) {
   );
 }
 module.exports = {
-  logMessage,
+  logMessage: logMessageToGroup,
 };
